@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  @apply bg-gradient-to-br from-amber-50 via-stone-50 to-amber-100 text-gray-800 font-sans;
+}
+
+.prose a {
+  @apply text-amber-700 hover:text-amber-800 underline;
+}
+
+.prose h1, .prose h2, .prose h3 {
+  @apply text-amber-900;
+}
